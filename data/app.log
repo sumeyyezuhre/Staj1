@@ -1,0 +1,133 @@
+2025-10-29 15:41:37,685 INFO GET /
+2025-10-29 15:41:44,713 INFO POST /ask web=False qlen=5
+2025-10-29 15:41:59,049 INFO POST /upload-pdf filename=Ayrık Matematik 1.pdf
+2025-10-29 15:41:59,050 ERROR upload_pdf failed
+Traceback (most recent call last):
+  File "/Users/sumeyyezuhretaskin/PycharmProjects/Staj/edoksis_gemma_chatbot/app.py", line 45, in upload_pdf
+    with open(file_path, "wb") as buffer:
+         ^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: 'data/uploads/83a6d3b3-45fd-40b2-bfdf-23a70ecbc6d4_Ayrık Matematik 1.pdf'
+2025-10-29 15:47:03,349 INFO GET /
+2025-10-29 15:47:12,930 INFO POST /ask web=False qlen=5
+2025-10-29 15:47:27,993 INFO POST /upload-pdf filename=Ayrık Matematik 1.pdf
+2025-10-29 15:47:48,321 INFO POST /ask web=False qlen=29
+2025-10-29 15:48:44,205 INFO POST /ask web=True qlen=39
+2025-10-29 15:48:44,847 INFO response: https://www.bing.com/search?q=bal%C4%B1kesir+s%C4%B1nd%C4%B1rg%C4%B1da+olan+son+depremler 200
+2025-10-29 15:53:15,028 INFO GET /
+2025-10-29 15:56:08,920 INFO GET /
+2025-10-29 15:56:09,321 INFO GET /
+2025-10-29 15:56:13,808 INFO POST /ask web=False qlen=5
+2025-10-29 15:56:30,314 INFO POST /ask web=False qlen=16
+2025-10-29 15:58:37,596 INFO GET /
+2025-10-29 15:58:37,597 INFO GET /
+2025-10-29 15:58:45,445 INFO POST /ask web=False qlen=7
+2025-10-29 15:58:55,242 INFO POST /ask web=False qlen=8
+2025-10-29 15:59:08,360 INFO POST /ask web=False qlen=12
+2025-10-29 15:59:34,849 INFO POST /ask web=True qlen=36
+2025-10-29 15:59:35,384 INFO response: https://www.bing.com/search?q=bal%C4%B1kesir+s%C4%B1nd%C4%B1rg%C4%B1daki+son+depremler 200
+2025-10-29 15:59:55,186 INFO POST /ask web=False qlen=32
+2025-10-29 16:02:47,342 INFO GET /
+2025-10-29 16:02:54,063 INFO POST /ask web=False qlen=5
+2025-10-29 16:05:26,110 INFO POST /ask web=True qlen=14
+2025-10-29 16:05:33,394 INFO response: https://www.bing.com/search?q=2025+yang%C4%B1nlar 200
+2025-10-29 16:06:48,969 INFO GET /
+2025-10-29 16:06:52,473 INFO POST /ask web=False qlen=5
+2025-10-29 16:28:28,271 INFO POST /ask web=False qlen=5
+2025-10-29 16:31:50,772 INFO GET /
+2025-10-29 16:31:51,214 INFO GET /
+2025-10-29 16:31:51,981 INFO GET /
+2025-10-29 16:31:52,606 INFO GET /
+2025-10-29 16:31:52,867 INFO GET /
+2025-10-29 16:31:53,044 INFO GET /
+2025-10-29 16:31:56,146 INFO POST /ask web=False qlen=5
+2025-10-29 16:32:12,723 INFO POST /ask web=False qlen=14
+2025-10-29 16:32:32,266 INFO POST /ask web=False qlen=57
+2025-10-29 16:33:03,143 INFO POST /ask web=False qlen=1
+2025-10-29 16:33:14,684 INFO POST /ask web=False qlen=18
+2025-10-29 16:33:22,935 INFO POST /ask web=False qlen=10
+2025-10-29 16:39:02,506 INFO GET /
+2025-10-29 16:39:17,317 INFO POST /upload-pdf filename=tt final.pdf
+2025-10-29 16:39:31,793 INFO POST /upload-pdf filename=TT-Vize.pdf
+2025-10-29 16:39:56,541 INFO POST /ask web=False qlen=32
+2025-10-29 16:40:13,315 INFO POST /ask web=False qlen=14
+2025-10-29 16:46:17,114 INFO GET /
+2025-10-29 16:46:25,411 INFO POST /ask web=False qlen=7
+2025-10-29 16:46:35,602 INFO POST /ask web=False qlen=8
+2025-10-29 16:47:24,858 INFO POST /upload-pdf filename=TT-Vize.pdf
+2025-10-29 16:47:52,544 INFO POST /ask web=False qlen=37
+2025-10-29 16:48:07,343 INFO POST /ask web=False qlen=6
+2025-10-29 16:48:33,573 INFO POST /ask web=False qlen=21
+2025-10-29 16:48:49,648 INFO POST /ask web=False qlen=21
+2025-10-29 16:49:29,241 INFO POST /ask web=False qlen=64
+2025-10-29 16:49:52,270 INFO POST /ask web=False qlen=20
+2025-10-29 16:53:31,296 INFO POST /ask web=True qlen=48
+2025-10-29 16:53:31,704 INFO response: https://www.bing.com/search?q=2025+T%C3%BCrkiyedeki+orman+yang%C4%B1nlar%C4%B1+hakk%C4%B1nda+bilgi 200
+2025-10-29 17:03:36,957 INFO GET /
+2025-10-29 17:03:41,081 INFO POST /ask web=False qlen=5
+2025-10-29 17:03:46,058 INFO POST /ask web=False qlen=9
+2025-10-29 17:04:11,503 INFO POST /ask web=False qlen=26
+2025-10-29 17:04:34,756 INFO POST /ask web=True qlen=26
+2025-10-29 17:04:35,123 INFO response: https://www.bing.com/search?q=yaz%C4%B1l%C4%B1m+m%C3%BChendisli%C4%9Fi+nedir 200
+2025-10-29 17:04:35,194 INFO web_search ddg results=5
+2025-10-29 17:05:09,458 INFO POST /ask web=True qlen=54
+2025-10-29 17:05:12,187 INFO response: https://www.bing.com/search?q=2025+t%C3%BCrkiyede+orman+yang%C4%B1n%C4%B1+%C3%A7%C4%B1kan+%C5%9Fehirler+nerelerdir 200
+2025-10-29 17:05:12,244 INFO web_search ddg results=5
+2025-10-29 17:05:48,796 INFO POST /upload-pdf filename=TT-Vize.pdf
+2025-10-29 17:06:05,500 INFO POST /ask web=False qlen=21
+2025-10-29 17:06:31,085 INFO POST /ask web=False qlen=48
+2025-10-29 17:06:52,057 INFO POST /ask web=False qlen=28
+2025-10-29 17:07:28,741 INFO POST /ask web=False qlen=40
+2025-10-29 17:10:28,819 INFO GET /
+2025-10-29 17:10:50,369 INFO POST /ask web=True qlen=44
+2025-10-29 17:10:50,829 INFO response: https://www.bing.com/search?q=2025te+t%C3%BCrkiyede+orman+yang%C4%B1n%C4%B1+olan+%C5%9Fehirler 200
+2025-10-29 17:10:50,894 INFO web_search ddg results=5
+2025-10-29 17:11:17,184 INFO POST /upload-pdf filename=TT-Vize.pdf
+2025-10-29 17:11:27,271 INFO POST /ask web=True qlen=9
+2025-10-29 17:11:28,225 INFO response: https://www.bing.com/search?q=pdf+%C3%B6zeti 200
+2025-10-29 17:11:28,296 INFO web_search ddg results=5
+2025-10-29 17:12:28,118 INFO POST /ask web=True qlen=15
+2025-10-29 17:12:30,814 INFO response: https://www.bing.com/search?q=konu+ba%C5%9Fl%C4%B1klaro 200
+2025-10-29 17:12:31,048 INFO web_search ddg results=5
+2025-10-29 17:14:21,437 INFO POST /ask web=True qlen=7
+2025-10-29 17:14:32,129 INFO POST /ask web=True qlen=19
+2025-10-29 17:14:32,600 INFO response: https://www.bing.com/search?q=pdf+%C3%B6zeti+istiyorum 200
+2025-10-29 17:14:32,676 INFO web_search ddg results=5
+2025-10-29 17:53:52,629 INFO GET /
+2025-10-29 17:54:05,777 INFO POST /ask web=True qlen=7
+2025-10-29 17:54:26,300 INFO POST /ask web=True qlen=26
+2025-10-29 17:54:36,303 INFO Error to search using bing backend: https://www.bing.com/search RuntimeError: error sending request for url (https://www.bing.com/search?q=yaz%C4%B1l%C4%B1m+m%C3%BChendisli%C4%9Fi+nedir): operation timed out
+
+Caused by:
+    operation timed out
+2025-10-29 17:54:36,303 WARNING web_search ddg failed: https://www.bing.com/search RuntimeError: error sending request for url (https://www.bing.com/search?q=yaz%C4%B1l%C4%B1m+m%C3%BChendisli%C4%9Fi+nedir): operation timed out
+
+Caused by:
+    operation timed out
+2025-10-29 17:54:42,067 INFO response: https://www.bing.com/search?q=yaz%C4%B1l%C4%B1m+m%C3%BChendisli%C4%9Fi+nedir&setlang=tr-tr 200
+2025-10-29 17:55:13,052 INFO POST /ask web=True qlen=16
+2025-10-29 17:55:14,476 INFO response: https://www.bing.com/search?q=yapay+zeka+nedir 200
+2025-10-29 17:55:14,567 INFO web_search ddg results=5
+2025-10-29 17:56:26,061 INFO POST /upload-pdf filename=H1-Ders Notları.pdf
+2025-10-29 17:56:40,846 INFO POST /ask web=True qlen=24
+2025-10-29 17:56:42,155 INFO response: https://www.bing.com/search?q=bu+dosyay%C4%B1+%C3%B6zetler+misin 200
+2025-10-29 17:56:42,200 INFO web_search ddg results=5
+2025-10-29 17:57:17,533 INFO POST /ask web=True qlen=9
+2025-10-29 17:57:18,831 INFO response: https://www.bing.com/search?q=pdf+%C3%B6zeti 200
+2025-10-29 17:57:18,890 INFO web_search ddg results=5
+2025-10-29 17:57:48,288 INFO POST /ask web=True qlen=21
+2025-10-29 17:57:51,571 INFO response: https://www.bing.com/search?q=pdf+%C3%B6zeti+yapar+m%C4%B1s%C4%B1n 200
+2025-10-29 17:57:51,607 INFO web_search ddg results=5
+2025-10-29 18:47:45,218 INFO GET /
+2025-10-29 18:47:49,000 INFO POST /ask web=True qlen=7
+2025-10-29 18:47:53,042 INFO POST /ask web=True qlen=8
+2025-10-29 18:47:53,567 INFO response: https://www.bing.com/search?q=nas%C4%B1ls%C4%B1n 200
+2025-10-29 18:47:53,652 INFO web_search ddg results=5
+2025-10-29 19:09:10,857 INFO GET /
+2025-10-29 19:09:17,479 INFO POST /ask web=True qlen=7
+2025-10-29 19:09:21,429 INFO POST /ask web=True qlen=8
+2025-10-29 19:09:21,840 INFO response: https://www.bing.com/search?q=nas%C4%B1ls%C4%B1n 200
+2025-10-29 19:09:21,863 INFO web_search ddg results=5
+2025-10-29 19:10:25,333 INFO POST /ask web=True qlen=8
+2025-10-29 19:10:25,736 INFO response: https://www.bing.com/search?q=nas%C4%B1ls%C4%B1n 200
+2025-10-29 19:10:25,805 INFO web_search ddg results=5
+2025-10-29 19:10:54,703 INFO GET /
