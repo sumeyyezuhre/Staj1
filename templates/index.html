@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>🌸 Sümeyye Zühre Chatbot 🌸</title>
+  <script src="/static/main.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+  
+</head>
+<body class="custom-body">
+  <div class="chat-wrapper">
+    <h1 class="chat-title">🌸 Sümeyye Zühre Chatbot 🌸</h1>
+
+    <!-- PDF yükleme ve Web Arama Butonları -->
+    <div class="action-buttons">
+      <label for="pdfUpload" class="btn-action">PDF Yükle</label>
+      <input type="file" id="pdfUpload" accept="application/pdf" class="hidden" />
+
+      <button id="webSearchBtn" class="btn-action">Web'de Ara</button>
+
+      <label class="inline-flex items-center gap-2 ml-4">
+        <input type="checkbox" id="usePdfToggle" />
+        <span>PDF bağlamını kullan</span>
+      </label>
+    </div>
+
+    <div id="chatBox" class="chat-box">
+      <div class="chat-placeholder">Sohbete başlamak için aşağıya bir mesaj yazabilirsin</div>
+    </div>
+
+    <form id="chatForm" class="chat-form">
+      <textarea
+        id="question"
+        rows="2"
+        class="chat-input"
+        placeholder="Bir şey sor"
+      ></textarea>
+
+      <button
+        type="submit"
+        class="btn-send"
+      >
+        Gönder
+      </button>
+    </form>
+  </div>
+</body>
+</html>
+

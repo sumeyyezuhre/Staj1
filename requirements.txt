@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+PyMuPDF
+faiss-cpu
+duckduckgo_search
+jinja2
+python-multipart
+sentence-transformers
+langdetect
